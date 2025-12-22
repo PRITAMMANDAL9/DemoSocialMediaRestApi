@@ -7,7 +7,7 @@ import java.util.function.Predicate;
 
 import org.springframework.stereotype.Service;
 
-import com.Pritam44.DemoRestApi.Users.User;
+import com.Pritam44.DemoRestApi.entity.User;
 @Service
 public class UsersService {
 	 static List<User> users = new ArrayList<>();
